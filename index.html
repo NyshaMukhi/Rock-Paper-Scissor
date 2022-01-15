@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"> </script>
+</head>
+<body>
+    <div id="d1">
+        <h1> Rock Paper or Scissor </h1>
+    </div>
+    <div id="d2">
+        <label> Instructions: </label> <br> <br>
+        <label> - Rock beats scissors </label> <br>
+        <label> - Scissors beats paper </label> <br>
+        <label> - Paper beats rock </label> <br> 
+        <label> Score Points To Win The Game </label> 
+    </div>
+    <div id="d3">
+        <label> Scoreboard: </label> <br>
+        <label> You: </label>
+        <label id="personscore"> 0 </label> <br> 
+        <label> Computer: </label>
+        <label id="computerscore"> 0 </label> <br> <br>
+    </div>
+    <div id="d4">
+        <label> Choose Rock, Paper or Scissor By Clicking On The Button Below </label> <br> <br> 
+        <button id="rockb" onclick="RockClick()"> </button>
+        <button id="scissorb" onclick="ScissorClick()"> </button>
+        <button id="paperb" onclick="PaperClick()"> </button> <br> <br> 
+        <label> Computer's Choice: </label>
+        <label id="computerchoice"> </label> <br> <br> 
+        <label> Your Choice: </label>
+        <label id="personchoice"> </label> <br> <br>
+    </div>
+</body>
+</html>

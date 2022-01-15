@@ -1,0 +1,57 @@
+#d1{
+    background-color: hotpink;
+    text-align: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#d2{
+    background-color: palevioletred;
+    text-align: center;
+    color: white;
+    font-size:25px;
+    width:450px;
+    height: 200px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: #da31da4b;
+}
+#d3{
+    background-color: palevioletred;
+    text-align: center;
+    color: white;
+    font-size: 26px;
+    width: 250px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 700px;
+    margin-top: -190px;
+}
+#d4{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    background-color: palevioletred;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 90px;
+}
+#rockb{
+    background-image:url("rock img.jpg");
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#paperb{
+    background-image:url("paper img.jpg");
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#scissorb{
+    background-image:url("scissor img.jpg");
+    height:100px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
